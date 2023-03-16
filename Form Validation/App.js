@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 import "./styles.css";
 
-// don't change the Component name "App"
 export default function App() {
   const [enteredInput, setEnteredInput] = useState("Invalid");
   const validationHandler = (event) => {
